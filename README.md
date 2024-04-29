@@ -1,7 +1,7 @@
 # Requirements
 
 Have ruby install in computer
-have postgres isntall in cpomuter
+Have postgres isntall in computer
 
 ## Available Scripts
 
