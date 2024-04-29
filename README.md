@@ -1,24 +1,18 @@
-# README
+# Requirements
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Have ruby install in computer
+have postgres isntall in cpomuter
 
-Things you may want to cover:
+## Available Scripts
 
-* Ruby version
+If you have a custom password or username (not the default) for postgres you need to put it in the file database.yml liine 19 and change the password with your own.
 
-* System dependencies
+To been able to run the project you need to run the following command the first time:
 
-* Configuration
+### `bundle install`
 
-* Database creation
+### `rails db:create db:migrate`
 
-* Database initialization
+After that you can run the project with:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### `bundle e rails s`
